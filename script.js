@@ -41,7 +41,7 @@ $(document).ready(function() {
         answer = eval(equation[0] + equation[1] + equation[2])
         updateTextEL("#result", answer);
         answerValue = true;
-    })
+    });
     $("#button-clear").on("click", function() {
         $("#first-number").empty();
         $("#operator").empty();
